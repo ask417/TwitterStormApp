@@ -8,7 +8,7 @@
             "nimbus": "",
             "workers": [],
             "log": {
-                "path": "",
+                "path": "/root/ex2/TwitterStormApp/EX2Tweetwordcount/logs",
                 "max_bytes": 1000000,
                 "backup_count": 10,
                 "level": "info"
