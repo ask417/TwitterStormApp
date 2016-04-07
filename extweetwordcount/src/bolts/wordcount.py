@@ -14,7 +14,7 @@ class WordCounter(Bolt):
 
     def process(self, tup):
         word = tup.values[0]
-	word =  re.sub("[\"\']","",word)
+	word =  re.sub("[\"\'\\\\]","",word)
 
 	# Increment the local count
         self.counts[word] += 1
